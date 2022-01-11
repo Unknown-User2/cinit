@@ -31,6 +31,8 @@ with open('main.c', 'wt', encoding='utf-8') as main:
     main.write('\n')
     main.write('int main(void){\n')
     main.write('\tprintf("Hello, World\\n");\n')
+    main.write('\t\n')
+    main.write('\treturn 0;\n')
     main.write('}\n')
 
     main.close()
